@@ -7,7 +7,13 @@ class Button extends StatelessWidget {
   Color bgColor;
   bool disable;
   double width;
-  Button({this.content, this.bgColor, this.disable = false, this.width = 0.20});
+  Function onTap;
+  Button(
+      {this.content,
+      this.bgColor,
+      this.disable = false,
+      this.width = 0.20,
+      this.onTap});
 
   @override
   Widget build(BuildContext context) {
@@ -16,6 +22,7 @@ class Button extends StatelessWidget {
     }
     _size = MediaQuery.of(context).size;
     return GestureDetector(
+      onTap: disable ? null : onTap,
       child: Container(
         decoration: BoxDecoration(
           color: !disable ? bgColor : GREY_DISABLE,

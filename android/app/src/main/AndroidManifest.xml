@@ -2,7 +2,7 @@
     package="com.example.conversor_bases">
    <application
         android:label="conversor_bases"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/launcher_icon">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"

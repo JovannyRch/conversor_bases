@@ -35,10 +35,16 @@ dev_dependencies:
     sdk: flutter
   flutter_launcher_icons: ^0.8.1
   flutter_native_splash: ^0.2.6
+
 flutter_icons:
   android: "launcher_icon"
   ios: true
   image_path: "images/logo.png"
+
+flutter_native_splash:
+  image: images/splash.png
+  color: "ffffff"
+  fill: false
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

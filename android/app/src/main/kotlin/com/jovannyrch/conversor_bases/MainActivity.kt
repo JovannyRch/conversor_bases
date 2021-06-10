@@ -1,4 +1,4 @@
-package com.example.conversor_bases
+package com.jovannyrch.conversor_bases
 
 import io.flutter.embedding.android.FlutterActivity
 

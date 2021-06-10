@@ -1,7 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.conversor_bases">
+    package="com.jovannyrch.conversor_bases">
+
+   <uses-permission android:name="android.permission.INTERNET" /> 
    <application
-        android:label="conversor_bases"
+        android:label="Conversor Bases"
         android:icon="@mipmap/launcher_icon">
         <activity
             android:name=".MainActivity"
